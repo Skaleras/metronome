@@ -11,7 +11,7 @@ public class Metronome{
         this.bpm = bpm;
         this.beatsPerMeasure = beatsPerMeasure;
     }
-
+    //yeah
     public Metronome() {
         this.bpm = 0.0;
         this.beatsPerMeasure = 4;
