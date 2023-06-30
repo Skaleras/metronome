@@ -1,0 +1,9 @@
+task: add a sound player to the metronome after starting.
+*   If you are ever feeling lost reading about the java sound API, checkout the head first
+    java book where you first saw someone using that api for an application,
+    or use a vpn to read the oracle documentation.
+
+task:   make a UI with a stop and play button and tempo setter
+        keyboard input for the metronome.
+
+task: start committing the project to github to keep version control, learn to use git with vscode
