@@ -1,0 +1,48 @@
+task:   add a sound player to the metronome after starting.
+
+                enbellecer el MetronomeSounder
+
+task:   make a UI with a stop and play button and tempo setter
+        keyboard input for the metronome.
+
+task:   learn to use the java command to run your classes from the deepest src folder
+        
+
+tip:
+        to compile all classes use this command in the current directory with your java files:
+
+        javac -d /home/skaleras/Desktop/code/projects/metronome/bin *.java
+
+        then cd to bin directory and use:
+
+        java {com.skaleras.metronome.className} to run it.
+
+Ayuda de mi primo Angel para reconocer el archivo de audio:
+
+        Usar ruta absoluta del resource o cargar el resource.
+
+        para cargar el resource
+
+                getClass().getClassLoader().getResourceAsStream("mi_sonido.wav");
+
+                Search for 'How to read text file from classpath in Java?' in StackOverFlow
+                something similar appears.
+                The dummy.java is the example to go through this.
+
+        Otra recomendacion:
+
+        Usar build.gradle para compilar mi proyecto:
+
+        build gradle
+        run gradle
+
+        Otra forma de debuggear este problema clasico, es que imprimas la ruta
+        actual en donde esta corriendo el programa.
+
+        System.out.println(System.getProperty("user.dir"));
+
+        Con correr el programa en ambos lugares entonces verias la causa del problema.
+
+Haber seteado el absolute path del archivo de audio ayudo a que el programa compilara en vscode,
+siento que java sound api no funciona con archivos mp3 asi que me mantendre en linea usando archivos 
+wav en adelante.

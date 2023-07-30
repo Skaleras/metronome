@@ -33,7 +33,7 @@ public class Metronome{
         this.beatsPerMeasure = newBeatsPerMeasure;
     }
 
-    public void setUpMetronomeThread() {
+    private void setUpMetronomeThread() {
         try {
             Thread.sleep((long)(MILISECONDS_PER_SECOND*(SECONDS_PER_MINUTE/bpm)));
         }
